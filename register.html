@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>邻里注册</title>
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src=""></script>
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			ul{list-style:none;}
+			a{text-decoration:none;}
+			body{background-image:url(images/register-background.png);background-repeat:no-repeat;background-size:cover;text-align:center;}
+			.header{position:fixed;z-index:2;top:0;left:0;width:100%;}
+			.header h1{padding:12px 15px;background-color:rgba(0,0,0,.2);color:#fff;width:100%;font-size:16px;}
+			
+			.header h1>a:first-of-type{content:"";display:inline-block;width:7px;height:7px;border:3px solid #fff;border-top:none;border-right:none;transform:rotate(45deg);float:left;margin-top:3px;}
+			.header h1>a:last-of-type img{float:right;margin-right:30px;}
+			.header>a{margin-right:15px;color:#000;font-size:13px;text-decoration: underline;float:right;margin-top:5px;}
+			.login{margin-top:70%;width:84%;margin-left:auto;margin-right:auto;margin-bottom:59px;}
+			.zhuce{text-align:right;}
+			.zhuce a{color:#000;font-size:13px;text-decoration:underline;}
+			.form{width:100%;padding:0 10px;background-color:#fff;border-radius:5px;box-sizing:border-box;-webkit-box-sizing:border-box;margin-top:3px;}
+			.form>div{padding:12px 0;text-align:left;border-bottom:1px solid #bfbfbf;}
+			.form>div:last-of-type{border:none;}
+			.form span{float:left;width:30px;text-align:center;vertical-align:middle;}
+			.form input{border:none;padding:5px;font-size:16px;}
+			.form select{border:none;width:100%;font-size:16px;}
+			.btn{margin-bottom:20px;}
+			.btn a{padding:10px;display: block;background-color:#4b341e;color:#fff;font-size:16px;font-weight:bold;text-align:center;border-radius:6px;margin-top:18px;letter-spacing:3px;}		
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1><a href=""></a>用户注册<a href=""><img src="images/home2.png"/></a></h1>
+			<a href="">一键了解丹麦安全猪肉</a>
+		</div>
+		
+		<div class="login">
+			<div class="zhuce">
+				<a href="">登录</a>
+			</div>
+			<div class="form">
+				<div><span><img src="images/user.png" alt="" /></span><input type="text" placeholder="用户名" /></div>
+				<div>
+					<select name="">
+						<option value="">{$vo.title}</option>
+					</select>
+				</div>
+				<div><span><img src="images/phone.png" alt="" /></span><input type="text" placeholder="手机号码" /></div>
+				<div><span><img src="images/mess.png" alt="" /></span><input type="text" placeholder="短信验证码" /></div>
+				<div><span><img src="images/pass.jpg"/></span><input type="text" placeholder="输入密码"/></div>
+				<div><span><img src="images/pass.jpg"/></span><input type="text" placeholder="确认密码"/></div>
+			</div>
+			<div class="btn">
+				<a href="">注册</a>
+			</div>
+		</div>
+	</body>
+</html>

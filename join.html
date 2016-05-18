@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>邻里注册</title>
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src=""></script>
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			ul{list-style:none;}
+			a{text-decoration:none;}
+			body{background-image:url(images/area-background.png);background-repeat:no-repeat;background-size:cover;text-align:center;}
+			.header{position:fixed;z-index:2;top:0;left:0;width:100%;}
+			.header h1{padding:12px 15px;background-color:rgba(0,0,0,.2);color:#fff;width:100%;font-size:16px;}
+			
+			.header h1>a:first-of-type{content:"";display:inline-block;width:7px;height:7px;border:3px solid #fff;border-top:none;border-right:none;transform:rotate(45deg);float:left;margin-top:3px;}
+			.header h1>a:last-of-type img{float:right;margin-right:30px;}
+			.xuanqu{width:100%;margin-top:103%;position:relative;top:60%;left:0;box-sizing:border-box;-webkit-box-sizing:border-box;padding-bottom:5%;}
+			.xuanqu div{padding:0 10px;}
+			.xuanqu div a{width:88%;margin-left:auto;margin-right:auto;text-align:center;color:#fcecc4;border-bottom:1px solid #fae4aa;display: block;    font-size: 15px;padding:8px;letter-spacing:3px;}
+			.xuanqu .active{background-color:#fff;}
+			.xuanqu .active a{color:#f3be35;}
+			.btn a{padding:10px;display: block;background-color:#4b341e;color:#fff;font-size:16px;font-weight:bold;text-align:center;border-radius:6px;margin-top:18px;letter-spacing:3px;}		
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1><a href=""></a>选区<a href=""><img src="images/shangchuan.png"/></a></h1>
+		</div>
+		<div class="xuanqu">
+			<div class="q1"><a href="">参赛选区1</a></div>
+			<div class="q2"><a href="">参赛选区2</a></div>
+			<div class="q3"><a href="">参赛选区3</a></div>
+			<div class="q4 active"><a href="">参赛选区4</a></div>
+			<div class="q5"><a href="">参赛选区5</a></div>
+			<div class="q6"><a href="">参赛选区6</a></div>
+			<div class="q7"><a href="">参赛选区7</a></div>
+			<div class="btn">
+				<a href="">申请赛区</a>
+			</div>
+		</div>
+	</body>
+</html>
